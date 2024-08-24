@@ -18,7 +18,7 @@ resource "azure_resouce_group" "devops2" {
     name = "azure2"
     location = "us-east-2"
     tags = {
-      Env = "dev2"
+      Env = "dev"
     }
 }
 
@@ -26,6 +26,6 @@ resource "azure_resouce_group" "devops3" {
     name = "azure3"
     location = "ap-south-1"
     tags = {
-      Env = "dev3"
+      Env = "dev"
     }
 }
